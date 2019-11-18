@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 6.4.--><structure>
+	<type>fa</type>
+	<automaton>
+		<!--The list of states.-->
+		<state id="0" name="q0">
+			<x>239.0</x>
+			<y>159.0</y>
+			<initial/>
+		</state>
+		<state id="1" name="q1">
+			<x>391.0</x>
+			<y>149.0</y>
+			<final/>
+		</state>
+		<state id="2" name="q2">
+			<x>598.0</x>
+			<y>144.0</y>
+		</state>
+		<!--The list of transitions.-->
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read>S</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read>L</read>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>1</to>
+			<read>L,N</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>0</to>
+			<read>L</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>2</to>
+			<read>=</read>
+		</transition>
+		<note>
+			<text>L = letra</text>
+			<x>35.0</x>
+			<y>20.0</y>
+		</note>
+		<note>
+			<text>N = número</text>
+			<x>37.0</x>
+			<y>40.0</y>
+		</note>
+		<note>
+			<text>OP = operador</text>
+			<x>34.0</x>
+			<y>67.0</y>
+		</note>
+		<note>
+			<text>var variable = 25</text>
+			<x>428.0</x>
+			<y>28.0</y>
+		</note>
+		<note>
+			<text>var variable = "test"</text>
+			<x>428.0</x>
+			<y>53.0</y>
+		</note>
+		<note>
+			<text>varr</text>
+			<x>698.0</x>
+			<y>18.0</y>
+		</note>
+		<note>
+			<text>var var</text>
+			<x>697.0</x>
+			<y>45.0</y>
+		</note>
+		<note>
+			<text>S = space</text>
+			<x>37.0</x>
+			<y>98.0</y>
+		</note>
+	</automaton>
+</structure>

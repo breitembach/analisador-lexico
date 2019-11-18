@@ -1,0 +1,53 @@
+
+alphabet: abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+numbers: 0123456789
+operators: +-*
+reservedWords:
+  - private
+  - protected
+  - abstract
+  - public
+  - class
+  - extends
+  - final
+  - implements
+  - interface
+  - native
+  - new
+  - static
+  - strictfp
+  - synchronized
+  - transient
+  - volatile
+  - break
+  - case
+  - continue
+  - default
+  - do
+  - else
+  - for
+  - while
+  - if
+  - instanceof
+  - return
+  - switch
+  - catch
+  - finally
+  - throws
+  - throw
+  - assert
+  - try
+  - import
+  - package
+  - boolean
+  - byte
+  - char
+  - double
+  - float
+  - long
+  - int
+  - string
+  - short
+
+
+
