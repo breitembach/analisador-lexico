@@ -1,14 +1,6 @@
 import helpers.searchCaracter
 
-class AnalisadorLexico(dependencies: TableSimbolReader) {
-    private val reserverdWords = dependencies.reservedWords
-    private val operators = dependencies.operators
-    private val alphabet = dependencies.alphabet
-    private val numbers = dependencies.numbers
-    var token: Token = Token()
-    val END = 9999999
-
-
+class AnalisadorLexico : TableSymbolReader() {
 
     init {
         while (true) {
@@ -21,15 +13,12 @@ class AnalisadorLexico(dependencies: TableSimbolReader) {
             var state = 0
 
             state = scanner(expression?.toCharArray()!!)
-//            println("Tokens Criados"+token.tokens.toString())
-
 
             if (state == -1) {
-                println("A expressão - ${expression}> está correta!")
+                println("A expressão - < ${expression} > está correta!")
             } else {
-                println("A expressão - ${expression}> apresentou erro no estado ${state}")
+                println("A expressão - < ${expression} > apresentou erro no estado $state")
             }
-
 
 
 
@@ -45,46 +34,7 @@ class AnalisadorLexico(dependencies: TableSimbolReader) {
 
     }
 
-//    private fun novoScan(expression : CharArray): Int {
-//        var i = 0
-//        var state = 0
-//        var currentVar = ""
-//
-//        while(state != -1) {
-//            when(state) {
-//                0 -> {
-//                    while (searchCaracter(expression[i], alphabet) && i < (expression.size - 1)){
-//                        if(searchCaracter(expression[i], " ")) {
-//                            token.createToken(currentVar, i)
-//                            state = 2
-//                        }else {
-//                            return state
-//                        }
-//
-//                    }
-//                    token.createToken(currentVar, i)
-//                    i++
-//                    currentVar += expression[i]
-//                    return state
-//                }
-////                1 -> {
-////                    token.createToken(currentVar, i)
-////                    i++
-////                    currentVar += expression[i]
-////                    return state
-////                }
-////                2 -> {
-////                    token.createToken(currentVar, i)
-////                    i++
-////                    currentVar += expression[i]
-////                    return state
-////                }
-//            }
-//        }
-//        throw Exception("ERRR")
-//    }
-
-    private fun scanner(expression : CharArray) : Int{
+    private fun scanner(expression : CharArray) : Int {
 
         var i = 0
         var estado = 0
@@ -986,7 +936,7 @@ class AnalisadorLexico(dependencies: TableSimbolReader) {
                 }
 
                 else -> {
-                    println("Default case")
+//                    println("nothing")
                 }
             }
         }
