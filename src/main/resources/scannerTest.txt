@@ -1,6 +1,88 @@
 valor = valor * 2a;
 5v= 2 + 3;
 v = 5 + 2;
+v /*aaa***/ = v + 2 = v ++ 1;
+v = 5 + 2v3a;
+v = 5 + 2v3a /*aaa***/;
+v = 5 + 2 + v2a;
+v = 5 + 2 + v2a // aaa
+v = 5 + 2 + 3v2a;
+v v = 6 - 4;
+/*aaa***/
+v /=/ v;
+v = /* */ 2 + 5 / 7;
+v =/* / 2;
+/* */ v = 5+2;
+v = 2 + 2 + 2 /* */;
+v =2+/* 2 / 5 */5/7;
+v =2+/* 2 / 5 5/7;
+v =2+/* 2 / 5 5/7
+/********************
+asdasdasdsdasddasdsd
+v = 2 + 2 / 2 //
+//
+/**/
+VR=VR+5;
+VR1=5+3/2;
+VR=
+2VR=8+VR;
+VR=VR1A+15/4;
+VR=10
+VR=VR1
+VR+2=VR1+15;
+VR=VR+5*;
+10=7+3;
+VR=VR1=5+6;
+VR=VR1+8*VR2
+VR=10+10+VR+10;
+VR=VR12A;
+2 + 2 = 4;
+v = 4;
+v /* /- v4
+v /*aaa*/ = 2;
+//
+//qualquer coisa
+v = 2 * 5 /*aaa*/ ;
+v /* jvjhgljvh */ = 2 / 5 ;
+VR  /* */ = 2 / 5 ;
+VR=VR1+2=5+6;
+VR=VR1+9-VR;
+VR=VR1*VR2+VR2A;
+=VR=15;
+VR=VR1*VR2+VR3;
+VR=+20*VR1;
+VR=VR1*+15;
+VR1A=8+4-VR;
+V = 2 +
+vvvvvvvvvvvvvv
+vvvvvvv = vvvvvvv
+v = v + v
+v = v + v + v /;
+v=v/*aa*/;
+/*aa*/
+VR = VR + 5;
+VR1 = 5 + 3 / 2;
+VR = ;
+2VR = 8 + VR;
+VR = VR1A + 15 / 4;
+VR = 10;
+VR = VR1;
+VR + 2 = VR1 + 15;
+VR = VR + 5 *;
+10 = 7 + 3;
+VR = VR1 = 5 + 6;
+VR = VR1 + 8 * VR2;
+VR = 10 + 10 + VR + 10;
+VR = VR12A;
+VR = VR1 + 2 = 5 + 6;
+VR = VR1 + 9 - VR;
+VR = VR1 * VR2 + VR2A;
+=VR = 15;
+VR = VR1 * VR2 + VR3;
+VR = +20 * VR1;
+VR = VR1 * + 15;
+VR1A = 8 + 4 - VR;
+VR25B = VR + 3;
 6 = 3 + 12;
 v = v /*aaa***/ + 2 = v ++ 1;
 /*aaa***/ v = 5 / v + 2;
@@ -16,86 +98,3 @@ v =    v + 2;
 v =    v + 2 +;
 v =    v /+ 2;
 v = 5 + 2v4
-v /*aaa***/ = v + 2 = v ++ 1;
-v = 5 + 2v3a;
-v = 5 + 2v3a /*aaa***/;
-v = 5 + 2 + v2a;
-v = 5 + 2 + v2a // aaa
-v = 5 + 2 + 3v2a;
-v v = 6 - 4;
-/*aaa***/
-v /=/ v;
-2 + 2 = 4;
-v = 4;
-v /* /- v4
-v /*aaa*/ = 2;
-//
-//qualquer coisa
-v = 2 * 5 /*aaa*/ ;
-v /* jvjhgljvh */ = 2 / 5 ;
-VR  /* */ = 2 / 5 ;
-v = /* */ 2 + 5 / 7;
-v =/* / 2;
-/* */ v = 5+2;
-v = 2 + 2 + 2 /* */;
-v =2+/* 2 / 5 */5/7;
-v =2+/* 2 / 5 5/7;
-v =2+/* 2 / 5 5/7
-/********************
-lllllllllllllllllllllllllll          
-aaaaaaaaaaaaaaaaaaaaaaaaaaa
-v = 2 + 2 / 2 //
-//
-/**/
-VR=VR+5;    
-VR1=5+3/2;   
-VR=          
-2VR=8+VR;    
-VR=VR1A+15/4; 
-VR=10         
-VR=VR1          
-VR+2=VR1+15;   
-VR=VR+5*;     
-10=7+3;      
-VR=VR1=5+6;   
-VR=VR1+8*VR2 
-VR=10+10+VR+10; 
-VR=VR12A; 
-VR=VR1+2=5+6;
-VR=VR1+9-VR;
-VR=VR1*VR2+VR2A;
-=VR=15;
-VR=VR1*VR2+VR3;
-VR=+20*VR1; 
-VR=VR1*+15; 
-VR1A=8+4-VR; 
-V = 2 +
-vvvvvvvvvvvvvv
-vvvvvvv = vvvvvvv
-v = v + v
-v = v + v + v /;
-v=v/*aa*/;
-/*aa*/
-VR = VR + 5; 
-VR1 = 5 + 3 / 2; 
-VR = ; 
-2VR = 8 + VR; 
-VR = VR1A + 15 / 4; 
-VR = 10; 
-VR = VR1; 
-VR + 2 = VR1 + 15; 
-VR = VR + 5 *; 
-10 = 7 + 3; 
-VR = VR1 = 5 + 6; 
-VR = VR1 + 8 * VR2; 
-VR = 10 + 10 + VR + 10; 
-VR = VR12A; 
-VR = VR1 + 2 = 5 + 6; 
-VR = VR1 + 9 - VR;
-VR = VR1 * VR2 + VR2A;
-=VR = 15;
-VR = VR1 * VR2 + VR3;
-VR = +20 * VR1;
-VR = VR1 * + 15;
-VR1A = 8 + 4 - VR;
-VR25B = VR + 3;

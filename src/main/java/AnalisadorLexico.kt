@@ -1,34 +1,58 @@
 import helpers.searchCaracter
 
 class AnalisadorLexico : TableSymbolReader() {
+    val ANSI_GREEN = "\u001B[32m"
+    val ANSI_RESET = "\u001B[0m"
+    val ANSI_RED = "\u001B[31m"
 
     init {
         while (true) {
+            val inputStream = this.javaClass.getResource("scannerTest.txt").openStream()
+            val lineList = mutableListOf<String>()
+            var expressao: CharArray
+            var state = 0
+            println("_____________________________________")
+            println("1         - Executar massa de testes.")
+            println("expressão - Executa validação da word.")
+            println("0         - Finalizar Programa.")
+
             print("Digite > ")
             val expression = readLine()
+
+            when(expression) {
+                "0" -> {
+                    println(ANSI_RED + "PROGRAMA FINALIZADO! \n" + ANSI_RESET)
+
+                }
+                "1" -> {
+                    inputStream.bufferedReader().useLines { lines -> lines.forEach { lineList.add(it)} }
+                    lineList.forEach {
+
+                        expressao = it.toCharArray()
+                        var estado = scanner(expressao)
+                        var rp = ".".repeat(50 - it.length)
+
+                        if (estado == -1) {
+                            println(ANSI_GREEN + "A expressão - ${it} ${rp}> está correta!" + ANSI_RESET)
+                        } else {
+                            println(ANSI_RED + "A expressão - ${it} ${rp}> apresentou erro no estado ${estado}" + ANSI_RESET)
+                        }
+                    }
+                }
+                else -> {
+                    state = scanner(expression?.toCharArray()!!)
+
+                    if (state == -1) {
+                        println(ANSI_GREEN + "A expressão - < ${expression} > está correta!" + ANSI_RESET)
+                    } else {
+                        println(ANSI_RED + "A expressão - < ${expression} > apresentou erro no estado $state" + ANSI_RESET)
+                    }
+                }
+            }
             if(expression == "0") {
-                print("PROGRAMA FINALIZADO! \n")
                 break
             }
-            var state = 0
 
-            state = scanner(expression?.toCharArray()!!)
-
-            if (state == -1) {
-                println("A expressão - < ${expression} > está correta!")
-            } else {
-                println("A expressão - < ${expression} > apresentou erro no estado $state")
-            }
-
-
-
-//            reserverdWords.forEach {
-
-
-//                var rp = ".".repeat(50 - it.length)
-
-
-//            }
         }
 
 
